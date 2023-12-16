@@ -1,0 +1,18 @@
+.accordionHeading {
+    background-color: white;
+    color: #000;
+    border-top: 1px solid #000;
+    padding: 0.8rem 0;
+}
+
+.accordionButton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordionPanel {
+    text-align: left;
+    padding-bottom: 1rem;
+    color: #4e4d4d;
+}
