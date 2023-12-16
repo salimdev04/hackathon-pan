@@ -2,8 +2,8 @@ import React from "react";
 
 const SimpleBanner = () => {
   return (
-    <section className="bg-[#4DA9C6] p-[8rem] flex justify-between">
-      <h1 className="max-w-[600px] font-bold text-[48px]">
+    <section className="tablet:bg-[#4DA9C6] p-[2rem] tablet:p-[8rem] tablet:flex justify-between">
+      <h1 className="max-w-[600px] font-bold text-[48px] py-4 tablet:p-0">
         Unleash the Power of Gamified Advertising!
       </h1>
 

@@ -17,7 +17,7 @@ export const FaqAccordion = () => {
       <AccordionItem>
         <AccordionItemHeading className={styles.accordionHeading}>
           <AccordionItemButton className={styles.accordionButton}>
-            <span> What is our solution?</span>
+            <span> Can i change the number of segements of the wheel?</span>
             <img src="/Icon.svg" alt="" />
           </AccordionItemButton>
         </AccordionItemHeading>
@@ -28,7 +28,7 @@ export const FaqAccordion = () => {
       <AccordionItem>
         <AccordionItemHeading className={styles.accordionHeading}>
           <AccordionItemButton className={styles.accordionButton}>
-            <span> How does it work?</span>
+            <span> Can i try the platform for free?</span>
             <img src="/Icon.svg" alt="" />
           </AccordionItemButton>
         </AccordionItemHeading>
@@ -39,7 +39,7 @@ export const FaqAccordion = () => {
       <AccordionItem>
         <AccordionItemHeading className={styles.accordionHeading}>
           <AccordionItemButton className={styles.accordionButton}>
-            <span> What are the benefits?</span>
+            <span> Does it work with any website?</span>
             <img src="/Icon.svg" alt="" />
           </AccordionItemButton>
         </AccordionItemHeading>
@@ -50,7 +50,7 @@ export const FaqAccordion = () => {
       <AccordionItem>
         <AccordionItemHeading className={styles.accordionHeading}>
           <AccordionItemButton className={styles.accordionButton}>
-            <span> Is it customizable?</span>
+            <span>How can i contact you?</span>
             <img src="/Icon.svg" alt="" />
           </AccordionItemButton>
         </AccordionItemHeading>
@@ -65,7 +65,9 @@ export const FaqAccordion = () => {
           )}
         >
           <AccordionItemButton className={styles.accordionButton}>
-            <span> How can I get started?</span>
+            <span>
+              If i don’t have technical skills,can i use this platform easily?
+            </span>
             <img src="/Icon.svg" alt="" />
           </AccordionItemButton>
         </AccordionItemHeading>

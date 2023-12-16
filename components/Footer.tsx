@@ -1,20 +1,26 @@
 import React from "react";
+import styles from "./Style.module.css";
 
 const Footer = () => {
   return (
-    <footer className=" flex justify-between border-t border-black px-[2rem] pt-[2rem]">
-      <p>© 2023 Relume. All rights reserved.</p>
-      <div>
-        <a href="#" className="mx-4 underline">
+    <footer className=" tablet:flex justify-between border-t border-black px-[2rem] py-[2rem]">
+      <p className={styles.hiddenOnMobile}>
+        © 2023 Relume. All rights reserved.
+      </p>
+      <div className="tablet:flex">
+        <a href="#" className={styles.footerLink}>
           Privacy Policy
         </a>
-        <a href="#" className="mx-4 underline">
+        <a href="#" className={styles.footerLink}>
           Terms of Service
         </a>
-        <a href="#" className="mx-4 underline">
+        <a href="#" className={styles.footerLink}>
           Cookies Settings
         </a>
       </div>
+      <p className={[styles.hiddenOnDesktop, "text-center"].join(" ")}>
+        © 2023 Relume. All rights reserved.
+      </p>
     </footer>
   );
 };

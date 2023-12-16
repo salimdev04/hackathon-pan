@@ -23,8 +23,7 @@ const FaqSection = () => {
           className={["mx-auto ", commonStyles.hiddenOnMobile].join(" ")}
         />
         <p className={[commonStyles.lightText, "py-6 text-lg"].join(" ")}>
-          Find answers to frequently asked questions about our marketing
-          solution and gamified experiences.
+          If you have a question feel free to contact us
         </p>
       </div>
       <div className="my-24">

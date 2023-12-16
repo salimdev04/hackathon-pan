@@ -32,16 +32,16 @@ const processData = [
 
 const ProcessCard = ({ id, title, content }: ProcessCardProps) => {
   return (
-    <div>
+    <div className="max-w-[397px]">
       <h1
         className={[
           righteous.className,
-          "text-[96px] text-center text-[#4DA9C6]",
+          "tablet:text-[96px] text-[48px] tablet:text-center text-[#4DA9C6]",
         ].join(" ")}
       >
         {id}
       </h1>
-      <h3 className="py-4 font-bold text-2xl">{title}</h3>
+      <h3 className="py-4 font-bold text-[36px]">{title}</h3>
       <p className=" font-normal">{content}</p>
     </div>
   );
@@ -49,7 +49,7 @@ const ProcessCard = ({ id, title, content }: ProcessCardProps) => {
 
 const ProcessSection = () => {
   return (
-    <section className="flex justify-between gap-20 p-[8rem]">
+    <section className="grid grid-cols-1 tablet:grid-cols-3 gap-[24px] p-[2rem] tablet:p-[8rem]">
       {processData.map((process, idx) => (
         <ProcessCard
           key={idx}
