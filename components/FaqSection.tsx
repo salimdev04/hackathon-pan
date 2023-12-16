@@ -10,11 +10,7 @@ const FaqSection = () => {
         "max-w-[768px] mx-auto text-center",
       ].join(" ")}
     >
-      <h1
-        className={[commonStyles.boldText, "text-4xl tablet:hidden"].join(" ")}
-      >
-        FAQs
-      </h1>
+      <h1 className={[commonStyles.boldText, "text-4xl"].join(" ")}>FAQs</h1>
       <div>
         <img
           src="/image-2.png"
@@ -38,7 +34,7 @@ const FaqSection = () => {
             " "
           )}
         >
-          Contact us for more information or assistance.
+          Click this button
         </p>
         <button className={commonStyles.blackBtn}>Contact US</button>
       </div>

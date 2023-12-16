@@ -5,7 +5,7 @@ import Styles from "./Style.module.css";
 
 const Hero = () => {
   return (
-    <section className=" text-black tablet:text-white relative h-[881px] w-full">
+    <section className=" text-black tablet:text-white relative w-full">
       <Image
         src="/hero-bg.svg"
         alt="Hero Background"
