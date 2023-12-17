@@ -50,7 +50,7 @@ const BgContainer = ({ text }: { text: string }) => {
   );
 };
 
-const page = () => {
+const CustomizePage = () => {
   const [switchIphone, setSwitch] = useState(false);
   const onLoadSpin = () => {
     const weelElement = document.getElementById("weel");
@@ -156,4 +156,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default CustomizePage;
