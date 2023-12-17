@@ -46,7 +46,7 @@ const Hero = () => {
         </div>
 
         <div className="hidden tablet:block relative">
-          <img src="/weel.png" className={Styles.rotating} />
+          <img src="/home-weel.png" className={Styles.rotating} />
           <img src="aiguille.svg" className=" absolute -right-[5%] top-[45%]" />
         </div>
       </div>

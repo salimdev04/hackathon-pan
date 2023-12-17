@@ -25,14 +25,14 @@ const wealData = [
 const WealSeclectCard = ({ image, title, content }: WealSeclectCardProps) => {
   return (
     <div className="w-[300px]">
-      <div className="bg-[#A7A8A933] rounded-[20px] px-4 py-8 my-8">
+      <div className="bg-[#00000040] rounded-[20px] px-8 py-12 my-8">
         <img src={image} alt="" />
       </div>
       <h3 className="text-xl font-extrabold">{title}</h3>
-      <p className="text-[14px]">{content}</p>
+      <p className="text-[14px] text-white">{content}</p>
       <div>
         <Link href={"/customize"}>
-          <button className=" h-[40px] bg-black rounded-[26px] px-4 w-full mt-[2rem]">
+          <button className=" h-[40px] bg-black rounded-[26px] px-4 w-full mt-[2rem] text-white">
             Select
           </button>
         </Link>
@@ -44,10 +44,10 @@ const WealSeclectCard = ({ image, title, content }: WealSeclectCardProps) => {
 const CreateCampagnePage = () => {
   return (
     <div className="h-full relative">
-      <div className="hidden h-full md:flex md:w-72 md:flex-col md:fixed md:inset-y-0 z-80 bg-gray-900">
+      <div className="hidden h-full tablet:flex tablet:w-72 tablet:flex-col tablet:fixed tablet:inset-y-0 z-80 bg-gray-900">
         <Sidebar />
       </div>
-      <div className="relative h-screen text-white px-[8rem] py-[4rem]">
+      <div className="relative h-screen text-black px-[8rem] py-[4rem] ml-72">
         <Image
           src="/creeat-camp.svg"
           alt="Hero Background"
