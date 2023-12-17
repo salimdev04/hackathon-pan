@@ -14,8 +14,16 @@ const RewardContainer = ({ text }: { text: string }) => {
         <input type="text" className={styles.input} placeholder="Text" />
       </div>
       <div className={styles.inputContainer}>
-        <img src="/color.svg" />
-        <input type="color" className={styles.input} placeholder="#" />
+        <label htmlFor="color" className="w-[24px]">
+          <img src="/color.svg" className=" w-full" />
+        </label>
+
+        <input
+          id="color"
+          type="color"
+          className={styles.input}
+          placeholder="#"
+        />
       </div>
       <div className={styles.inputContainer}>
         <input type="text" className={styles.input} placeholder="0%" />
@@ -32,8 +40,16 @@ const SpinContainer = ({ text }: { text: string }) => {
         <input type="text" className={styles.input} placeholder="Text" />
       </div>
       <div className={styles.inputContainer}>
-        <img src="/blue.svg" />
-        <input type="color" className={styles.input} placeholder="#" />
+        <label htmlFor="blue" className="w-[24px]">
+          <img src="/blue.svg" className=" w-full" />
+        </label>
+
+        <input
+          id="blue"
+          type="color"
+          className={styles.input}
+          placeholder="#"
+        />
       </div>
     </div>
   );
@@ -43,8 +59,10 @@ const BgContainer = ({ text }: { text: string }) => {
     <div>
       <h1 className={styles.customTitle}>{text}</h1>
       <div className={styles.inputContainer}>
-        <img src="/red.svg" />
-        <input type="color" className={styles.input} placeholder="#" />
+        <label htmlFor="red" className="w-[24px]">
+          <img src="/red.svg" className=" w-full" />
+        </label>
+        <input id="red" type="color" className={styles.input} placeholder="#" />
       </div>
     </div>
   );
