@@ -21,14 +21,14 @@ const routes = [
   {
     label: "Ask Questions",
     icon: IoStarOutline,
-    href: "/conversation",
+    href: "#",
     color: "text-violet-500",
   },
   {
     label: "Mes Programmes",
     icon: GrAnalytics,
     color: "text-pink-700",
-    href: "/programmes",
+    href: "#",
   },
 ];
 
