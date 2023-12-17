@@ -113,10 +113,7 @@ const CustomizePage = () => {
           </div>
         </div>
 
-        <div
-          id="firstIphoneWrapper"
-          className={`${switchIphone ? "hidden" : ""} relative`}
-        >
+        <div id="firstIphoneWrapper" className={`relative tablet:block hidden`}>
           <img src="/iphone13.svg" alt="" height={605} width={550} />
 
           <img
@@ -136,21 +133,20 @@ const CustomizePage = () => {
             width={40}
           />
 
-          <button
-            onClick={() => onLoadSpin()}
-            className="px-6 py-4 bg-[#85D2EB] rounded-[26px] absolute bottom-[10%] left-[40%] font-bold"
-          >
-            SPIN
-          </button>
+          {switchIphone ? (
+            <img
+              src="/copy-paste.svg"
+              className="absolute bottom-[10%] left-[25%]"
+            />
+          ) : (
+            <button
+              onClick={() => onLoadSpin()}
+              className="px-[2rem] py-4 bg-[#85D2EB] rounded-[26px] absolute bottom-[10%] left-[30%] font-bold w-[151px]"
+            >
+              SPIN
+            </button>
+          )}
         </div>
-        <img
-          id="secondIphoneWrapper"
-          className={`${switchIphone ? "" : "hidden"}`}
-          src="/iphone13-after.svg"
-          alt=""
-          height={605}
-          width={550}
-        />
       </div>
     </div>
   );

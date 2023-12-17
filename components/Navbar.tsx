@@ -7,7 +7,7 @@ const righteous = Righteous({ weight: "400", subsets: ["latin"] });
 const Navbar = ({ text = "Get Started" }) => {
   return (
     <header className="flex justify-between items-center px-[2rem] py-4">
-      <img src="/logo.png" width={150} />
+      <img src="/logo.webp" width={150} />
 
       <div className="hidden tablet:block">
         <Link
